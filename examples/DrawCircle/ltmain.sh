@@ -1,0 +1,1 @@
+/opt/clanton-tiny/1.4.2/sysroots/i686-pokysdk-linux/usr/share/libtool/config/ltmain.sh

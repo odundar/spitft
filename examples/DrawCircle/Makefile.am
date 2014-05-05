@@ -1,0 +1,6 @@
+EXTRA_DIST = autogen.sh
+SUBDIRS = src include
+
+DISTCHECK_CONFIGURE_FLAGS=
+
+CLEANFILES = *~
