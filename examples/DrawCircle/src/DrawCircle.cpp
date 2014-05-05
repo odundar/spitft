@@ -29,17 +29,6 @@ int main(int argc, char *argv[]) {
 	init(argc, argv);
 	fastGpioSCInit();
 
-	cout << "Hello World" << endl; /* prints Hello World */
-	pinMode(LED_BUILTIN, OUTPUT);
-	digitalWrite(20, HIGH);
-	cout << "LED ON" << endl;
-	sleep(5);
-	digitalWrite(LED_BUILTIN, LOW);
-	cout << "LED OFF" << endl;
-	/* Initialize SPI */
-	//SPI.init();
-	//SPI.begin();
-	/*Initialize TFT */
 	TFT_BL_ON;
 
 	Tft.TFTinit();
